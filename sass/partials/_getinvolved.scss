@@ -1,0 +1,63 @@
+.getinvolved {
+    padding-top: 100px;
+    min-width:500px;
+    max-width:500px;
+    text-align:center;
+    margin:0 auto;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    font-size: 25px;
+}
+  
+input {
+    font-size: 12pt;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 41, 41);
+}
+  
+textarea {
+    font-size: 12pt;
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 41, 41);
+}
+  
+.button {
+    background-color: #002b88;
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background: #1b91ff;
+    transition: .5s;
+}
+  
+.form-error {
+    display: none;
+    color: red;
+    font-size: 17px;
+    margin-top: 2px;
+}
